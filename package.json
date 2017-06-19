@@ -1,5 +1,5 @@
 {
-  "name": "@meisterplayer/plugin-watermark",
+  "name": "@npm-wearetriple/meister-plugin-watermark",
   "version": "5.0.0",
   "description": "Watermark plugin for Meister",
   "main": "dist/Watermark.js",
