@@ -1,0 +1,21 @@
+{
+  "name": "@meisterplayer/plugin-watermark",
+  "version": "5.0.0",
+  "description": "Watermark plugin for Meister",
+  "main": "dist/Watermark.js",
+  "keywords": [
+    "meister",
+    "video",
+    "plugin",
+    "ui"
+  ],
+  "author": "Triple",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "meister-gulp-webpack-tasks": "^1.0.0",
+    "meister-js-dev": "^3.1.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-es2017": "^6.22.0",
+    "gulp": "^3.9.1"
+  }
+}

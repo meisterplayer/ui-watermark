@@ -1,0 +1,30 @@
+.meister-plugin-watermark-wrapper {
+    position: absolute;
+    width: 7%;
+    margin: 1% 1%;
+
+    &.meister-plugin-watermark-top-right {
+        top: 0;
+        right: 0;
+    }
+
+    &.meister-plugin-watermark-top-left {
+        top: 0;
+        left: 0;
+    }
+
+    &.meister-plugin-watermark-bottom-left {
+        bottom: 0;
+        left: 0;
+    }
+
+    &.meister-plugin-watermark-bottom-right {
+        bottom: 0;
+        right: 0;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
