@@ -1,3 +1,5 @@
+import packageJson from '../../package.json';
+
 class Watermark extends Meister.ProtoPlugin {
     constructor(config, meister) {
         super(config, meister);
@@ -16,6 +18,10 @@ class Watermark extends Meister.ProtoPlugin {
 
     static get pluginName() {
         return 'Watermark';
+    }
+
+    static get pluginVersion() {
+        return packageJson.version;
     }
 
     onPlayerPlaying() {
