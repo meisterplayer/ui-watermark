@@ -13,7 +13,7 @@ class Watermark extends Meister.ProtoPlugin {
 
         this.watermarkDrawn = false;
 
-        this.on('playerPlaying', this.onPlayerPlaying.bind(this));
+        this.on('playerCreated', this.onPlayerCreated.bind(this));
     }
 
     static get pluginName() {
@@ -24,10 +24,8 @@ class Watermark extends Meister.ProtoPlugin {
         return packageJson.version;
     }
 
-    onPlayerPlaying() {
-        if (this.watermarkDrawn) return;
-        this.watermarkDrawn = true;
 
+    onPlayerCreated() {
         const watermarkElement = document.createElement('div');
         watermarkElement.className = 'meister-plugin-watermark-wrapper';
 
