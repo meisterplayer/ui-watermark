@@ -3,7 +3,7 @@ const tripleGulp = require('meister-js-dev').gulp;
 const webpackTask = require('meister-gulp-webpack-tasks');
 
 // Building tasks.
-const MODULE_NAME = 'Message';
+const MODULE_NAME = 'Watermark';
 
 const bundleConfig = webpackTask.createConfig('./index.js', `build/${MODULE_NAME}.js`);
 const bundleCompiler = webpackTask.createCompiler(bundleConfig);
