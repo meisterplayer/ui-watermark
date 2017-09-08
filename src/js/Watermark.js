@@ -11,9 +11,7 @@ class Watermark extends Meister.ProtoPlugin {
             return [];
         }
 
-        this.watermarkDrawn = false;
-
-        this.on('playerCreated', this.onPlayerCreated.bind(this));
+        this.onPlayerCreated();
     }
 
     static get pluginName() {
@@ -40,7 +38,7 @@ class Watermark extends Meister.ProtoPlugin {
             });
         }
 
-        this.meister.playerWrapper.appendChild(watermarkElement);
+        this.meister.wrapper.appendChild(watermarkElement);
 
         if (this.config.position) {
             watermarkElement.className += ` meister-plugin-watermark-${this.config.position}`;
