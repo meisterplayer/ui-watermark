@@ -12,7 +12,7 @@
   "author": "Triple",
   "license": "Apache-2.0",
   "devDependencies": {
-    "meister-gulp-webpack-tasks": "^1.0.0",
+    "meister-gulp-webpack-tasks": "^1.0.11",
     "meister-js-dev": "^3.1.0",
     "babel-preset-es2015": "^6.24.0",
     "babel-preset-es2017": "^6.22.0",
