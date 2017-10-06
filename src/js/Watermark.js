@@ -43,6 +43,9 @@ class Watermark extends Meister.ProtoPlugin {
         if (this.config.position) {
             watermarkElement.className += ` meister-plugin-watermark-${this.config.position}`;
         }
+        if (this.config.autoHide) {
+            watermarkElement.classList.add('meister-plugin-watermark-autohide');
+        }
     }
 }
 

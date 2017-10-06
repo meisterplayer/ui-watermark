@@ -27,4 +27,8 @@
         width: 100%;
         height: 100%;
     }
+
+    &.meister-plugin-watermark-autohide {
+        animation: hide-bars-animation 8s forwards;
+    }
 }

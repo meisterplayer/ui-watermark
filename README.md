@@ -36,6 +36,20 @@ var meisterPlayer = new Meister('#player', {
 });
 ```
 
+
+#### autoHide *[Boolean]* ####
+
+Set autoHiding on/off. When autoHiding is used the watermark will slowly fade out (8 seconds)
+
+``` JavaScript
+var meisterPlayer = new Meister('#player', {
+    Watermark: {
+        iconUrl: 'URL_TO_WATERMARK',
+        autoHide : true,
+    }
+});
+```
+
 #### style *[Object]* ####
 
 This allows you to style the wrapper via javascript. 
